@@ -1,0 +1,54 @@
+
+.browse-container {
+    background: url('../../public/bg.jpeg') center center/cover no-repeat;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  .browse-title {
+    margin: 0;padding: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  /* Styles for the mood filter dropdown */
+  .mood-filter {
+    background-color: #2674a2;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover effect */
+  }
+  
+  .mood-filter:hover {
+    background-color: #3490dc; /* Color change on hover */
+  }
+  
+  /* Styles for the music listings */
+  .music-listing {
+    border: 1px solid #2674a2;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+  
+  .music-listing h3 {
+    font-size: 1.5rem;
+    margin: 5px 0;
+  }
+  
+  .music-listing p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+
+  .song-link {
+    color: rgb(0, 251, 255);
+  }
+  
+  /* Additional styles as needed for filters and listings */
+  

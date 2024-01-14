@@ -1,0 +1,30 @@
+/* About.css */
+
+.about {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../../public/bg.jpeg') center center/cover no-repeat;
+  color: white;
+}
+
+.about-container {
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgba(244, 244, 244, 0.7);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h2 {
+  color: #333;
+  font-size: 30px;
+}
+
+.about-container p {
+  line-height: 1.5;
+  color: #555;
+  font-size: 24px;
+}

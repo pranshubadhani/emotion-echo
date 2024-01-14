@@ -1,0 +1,57 @@
+/* HomePage.css - Add your custom styles here */
+
+.homepage {
+    height: 100vh;
+    background: url('../../public/bg.jpeg') center center/cover no-repeat;
+    color: white;
+    position: relative;
+  }
+  
+  .navigation {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+  }
+  
+  .navigation .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 25px;
+    display: inline; 
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .main-text {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .explore-link {
+    font-size: 1.5rem;
+    color: #3490dc;
+    text-decoration: none;
+  }
+  
+  .explore-link:hover {
+    text-decoration: underline;
+  }
+  
