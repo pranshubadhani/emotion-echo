@@ -214,6 +214,10 @@ const getRecommendedSongsByMood = (mood) => {
   }
 };
 
+app.get("/", (req, res) => {
+  res.send("Server is active.");
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
